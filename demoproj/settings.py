@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-aq^kz($boy7xfo46c75ncc!o!!8+#(ig*pe6&$532#eh(apy97
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
  
-ALLOWED_HOSTS = ['865359ea13c0495896df0f10f54d54b4.vfs.cloud9.us-east-1.amazonaws.com']
+ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = ['https://865359ea13c0495896df0f10f54d54b4.vfs.cloud9.us-east-1.amazonaws.com']
 CSRF_COOKIE_SECURE = True
