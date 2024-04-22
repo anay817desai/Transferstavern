@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-aq^kz($boy7xfo46c75ncc!o!!8+#(ig*pe6&$532#eh(apy97
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
  
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['865359ea13c0495896df0f10f54d54b4.vfs.cloud9.us-east-1.amazonaws.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://865359ea13c0495896df0f10f54d54b4.vfs.cloud9.us-east-1.amazonaws.com']
 CSRF_COOKIE_SECURE = True
@@ -34,13 +34,13 @@ CSRF_COOKIE_SECURE = True
 # Application definition
 
 INSTALLED_APPS = [
-    'transferstavern.apps.TransferstavernConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'transferstavern'
 ]
 
 MIDDLEWARE = [
@@ -76,18 +76,16 @@ WSGI_APPLICATION = 'demoproj.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
 DATABASES = {
      'default': {
          'ENGINE':'django.db.backends.postgresql_psycopg2',
-         'NAME':'anaydatabase',
+         'NAME':'postgres',
          'USER':'postgres',
          'PASSWORD':'postgres',
          'HOST':'x23210125db.cumvnazxpakg.us-east-1.rds.amazonaws.com',
          'PORT':'5432'
      }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
