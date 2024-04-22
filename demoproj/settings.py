@@ -27,7 +27,7 @@ DEBUG = True
  
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://865359ea13c0495896df0f10f54d54b4.vfs.cloud9.us-east-1.amazonaws.com']
+CSRF_TRUSTED_ORIGINS = ['*']
 CSRF_COOKIE_SECURE = True
 
 
